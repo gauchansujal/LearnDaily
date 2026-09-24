@@ -1,5 +1,3 @@
-let prices = [100, 200, 300];
-
-let withTax = prices.map((p) => p * 1.18);
-
-console.log(withTax); // [118, 236, 354]
+let celuius = [0, 20, 30, 100];
+let result = celuius.map((c)=> (c* 9/5)+32);
+console.log(result);
